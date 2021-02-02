@@ -4,11 +4,13 @@ I used original sample from [openiddict/openiddict-core](https://github.com/open
 
 ## Run
 
+- install npm
+- install net5 sdk
 - install docker
 - run mongo image ```docker run -d --name mongodb -p 27017:27017 mongo```
 - build and run ```./OpeniddictSamples.sln```
 
-## Framework and libriries
+## Framework and libraries
 
 - ```net5.0```
 - ```OpenIddict.*``` - ```3.0.0```
