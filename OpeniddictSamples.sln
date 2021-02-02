@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28606.126
+MinimumVisualStudioVersion = 10.0.40219.1
+
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mvc.Client", "Mvc.Client\Mvc.Client.csproj", "{38B50F37-731F-47EF-968C-52EE55970408}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mvc.Server", "Mvc.Server\Mvc.Server.csproj", "{9DA2EAA6-419D-40A5-AB3E-22C6CA27AEA6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38B50F37-731F-47EF-968C-52EE55970408}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38B50F37-731F-47EF-968C-52EE55970408}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DA2EAA6-419D-40A5-AB3E-22C6CA27AEA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DA2EAA6-419D-40A5-AB3E-22C6CA27AEA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+EndGlobal
