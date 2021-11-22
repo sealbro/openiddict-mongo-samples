@@ -33,7 +33,7 @@ namespace Mvc.Client.Controllers
 
             using var client = _httpClientFactory.CreateClient();
 
-            using var request = new HttpRequestMessage(HttpMethod.Get, "https://localhost:44395/api/message");
+            using var request = new HttpRequestMessage(HttpMethod.Get, "http://localhost:5020/api/message");
             request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", token);
 
             using var response = await client.SendAsync(request, cancellationToken);

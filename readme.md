@@ -10,8 +10,9 @@ I used original sample from [openiddict/openiddict-core](https://github.com/open
 - run mongo image ```docker run -d --name mongodb -p 27017:27017 mongo```
 - build and run ```./OpeniddictSamples.sln```
 
-## Framework and libraries
+## Throubles
 
-- ```net5.0```
-- ```OpenIddict.*``` - ```3.0.0```
-- ```AspNetCore.Identity.MongoDbCore``` - ```2.1.1```
+- Correlation failed.
+  - enabling SSL/TLS
+  - or use firefox
+  - or navigate to `chrome://flags/` and change `Cookies without SameSite must be secure` to `Disabled`

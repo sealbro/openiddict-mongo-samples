@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Globalization;
 using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -178,7 +179,10 @@ namespace Mvc.Server
             app.UseStatusCodePagesWithReExecute("/error");
 
             app.UseRouting();
-
+            app.UseCookiePolicy(new CookiePolicyOptions
+            {
+                MinimumSameSitePolicy = SameSiteMode.None
+            });
             app.UseRequestLocalization(options =>
             {
                 options.AddSupportedCultures("en-US", "fr-FR");

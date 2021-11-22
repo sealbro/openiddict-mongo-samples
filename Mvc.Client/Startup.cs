@@ -41,7 +41,7 @@ namespace Mvc.Client
                 // Note: setting the Authority allows the OIDC client middleware to automatically
                 // retrieve the identity provider's configuration and spare you from setting
                 // the different endpoints URIs or the token validation parameters explicitly.
-                options.Authority = "https://localhost:44395/";
+                options.Authority = "http://localhost:5020/";
 
                 options.Scope.Add("email");
                 options.Scope.Add("roles");

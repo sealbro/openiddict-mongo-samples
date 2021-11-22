@@ -10,6 +10,7 @@ namespace Mvc.Client
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
-                .ConfigureWebHostDefaults(builder => builder.UseStartup<Startup>());
+                .ConfigureWebHostDefaults(builder =>
+                    builder.UseStartup<Startup>().UseUrls("http://localhost:5010"));
     }
 }
